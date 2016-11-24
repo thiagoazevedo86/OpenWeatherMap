@@ -1,0 +1,23 @@
+/*CSS estilo OpenWeatherMap - by Thiago Azevedo*/
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+/*blocos gerais*/
+.bloco { background-color: #1BCFFD; color:#FFF; display:inline-block; font-family: 'Dosis', sans-serif; margin:5px; width: 310px; }
+
+/*conteudo do dia*/
+.bloco0	.cidade { float:left;  height:20px; padding:5px; width:145px; }
+.bloco0	.data { text-align: right; padding:5px; }
+.bloco0	.icone { width:100%; text-align: center; margin-top: 35px; }
+.bloco0	.temperatura { font-size:40px; text-align:center; width:100%; }
+.bloco0	.descricao { text-align:center; width: 100%; margin-bottom: 35px; }
+
+/*cor dos blocos*/
+.bloco1 { background-color:#27BFE7; }
+.bloco2 { background-color:#25AFD4; }
+.bloco3 { background-color:#22A2C4; }
+.bloco4 { background-color:#1C819D; }
+
+/*disposição dos blocos dos proximos 4 dias*/
+.bloco1, .bloco2, .bloco3, .bloco4 { float:left; text-align:center; width:77.5px; padding-bottom:5px; }
+.bloco1 .data, .bloco2 .data, .bloco3 .data, .bloco4 .data { font-size:10px;   }
+.bloco1 .descricao, .bloco2 .descricao, .bloco3 .descricao, .bloco4 .descricao { font-size:10px;  }
